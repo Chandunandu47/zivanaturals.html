@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background: #1f5132;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* HERO SECTION */
+.hero {
+    min-height: 90vh;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-box {
+    background: rgba(255,255,255,0.8);
+    padding: 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.hero-box h2 {
+    font-size: 40px;
+    color: #1f5132;
+}
+
+.hero-box p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* BUTTONS */
+.whatsapp-btn {
+    display: inline-block;
+    background: #25D366;
+    color: white;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.insta-link {
+    display: inline-block;
+    background: #E1306C;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* MENU */
+.menu {
+    padding: 60px;
+    text-align: center;
+    background: #f8f8f8;
+}
+
+.menu img {
+    max-width: 90%;
+    border-radius: 12px;
+}
+
+/* PRODUCTS */
+.products {
+    padding: 60px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product h3 {
+    margin-top: 10px;
+    color: #1f5132;
+}
+
+/* FOOTER */
+footer {
+    background: #1f5132;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
